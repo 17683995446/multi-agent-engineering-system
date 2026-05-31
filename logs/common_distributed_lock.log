@@ -1,0 +1,231 @@
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=37118_140608189320064_79b91430
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=37118_140608189320064_729797b3
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=37118_140608189320064_677b2b94
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:44:32 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=37118_140608189320064_423f374e
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=50913_140069055900544_738578b0
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=50913_140069055900544_cb45733a
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=50913_140069055900544_ecd1e473
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=50913_140069055900544_74ae65a2
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=50913_140069055900544_c77cb304
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=50913_140069055900544_911002f0
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:50:06 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=50913_140069055900544_4aeff349
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=50913_140069055900544_fb1ad0d7
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=50913_140069055900544_c3d5355b
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=50913_140069045225152_46c6e067
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=50913_140069036832448_33f2e7f1
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=50913_140069028439744_767d12a9
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:08 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=50913_140068815632064_15543b3e
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=50913_140068807239360_25e54fed
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=50913_140069055900544_5e0cbb1e
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=50913_140069055900544_39aacc03
+2026-05-31 18:50:09 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=51731_140286548888448_431542e4
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=51731_140286548888448_4863b7b7
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=51731_140286548888448_5a71790a
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=51731_140286548888448_7c93b987
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=51731_140286548888448_34e59d3f
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=51731_140286548888448_3d451482
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:50:52 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=51731_140286548888448_9abb7510
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=51731_140286548888448_67b2dde3
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=51731_140286548888448_01baa502
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=51731_140286538385088_44cde469
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=51731_140286529992384_d01a1717
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=51731_140286449678016_92673dba
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:54 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=51731_140286441285312_06b405da
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=51731_140286432892608_f5d27511
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=51731_140286548888448_271490ab
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=51731_140286548888448_bb9933ae
+2026-05-31 18:50:55 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=53361_140391804857216_1c4cec4f
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=53361_140391804857216_5d928b07
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=53361_140391804857216_64b0eb58
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=53361_140391804857216_8fb063e2
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=53361_140391804857216_be4cfd33
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=53361_140391804857216_7f023172
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:51:28 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=53361_140391804857216_accd42f3
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=53361_140391804857216_8f6b4c46
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=53361_140391804857216_d5ea49e8
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=53361_140391794353856_e89375b3
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=53361_140391785961152_4db34ae2
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=53361_140391777568448_d8800c7b
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:30 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=53361_140391769159360_8bd50421
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=53361_140391760750272_52f96725
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=53361_140391804857216_3f0da8fc
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=53361_140391804857216_0ec486c0
+2026-05-31 18:51:31 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=54178_139972503149440_d1182607
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=54178_139972503149440_9bf60bbb
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=54178_139972503149440_9a3cb6de
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=54178_139972503149440_a2ee3188
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=54178_139972503149440_51db6ae3
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=54178_139972503149440_ccb77da5
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:51:55 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=54178_139972503149440_16e86123
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=54178_139972503149440_39b4818e
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=54178_139972503149440_d134b8b0
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:51:56 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54178_139972492646080_3d0f9c0d
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54178_139972484253376_a25b4dd8
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54178_139972475860672_7d7eaca6
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54178_139972467451584_9b4a51af
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54178_139972459042496_232e6af1
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=54178_139972503149440_119d0856
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:51:57 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=54178_139972503149440_0d2e96fe
+2026-05-31 18:51:58 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=54995_140106541239168_8931c13e
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=54995_140106541239168_5efec653
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=54995_140106541239168_a120c2e3
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=54995_140106541239168_81f92158
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=54995_140106541239168_0ec4286c
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=54995_140106541239168_fccb6789
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:52:23 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=54995_140106541239168_1b103fe9
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=54995_140106541239168_eea4bbf9
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=54995_140106541239168_c2e52323
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54995_140106530735808_c8963831
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54995_140106522343104_7fd6f0df
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54995_140106513950400_00959503
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54995_140106505541312_715b0506
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:25 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=54995_140106497132224_c24c19b8
+2026-05-31 18:52:26 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:26 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=54995_140106541239168_6365da31
+2026-05-31 18:52:26 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:52:26 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=54995_140106541239168_ccbbaab9
+2026-05-31 18:52:26 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=57438_140540553472896_d6bd58dc
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=57438_140540553472896_ad2de219
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=57438_140540553472896_79111dfa
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=57438_140540553472896_f8531491
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=57438_140540553472896_4613a8a6
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=57438_140540553472896_3f45617c
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:52:53 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=57438_140540553472896_9ec31b05
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=57438_140540553472896_239be362
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=57438_140540553472896_1fbaaf5d
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=57438_140540542969536_401bc5b1
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=57438_140540534576832_3a96f3b5
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=57438_140540456728256_da209777
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:55 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=57438_140540448335552_ceebbdda
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=57438_140540439942848_66fa3e8e
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=57438_140540553472896_2713f37b
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=57438_140540553472896_c063bae7
+2026-05-31 18:52:56 - common.distributed_lock - INFO - 锁已释放 [test_expire]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_basic], owner=58256_140194085358464_95b75e53
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_basic]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_ctx], owner=58256_140194085358464_1c5167c3
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_ctx]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_deco], owner=58256_140194085358464_af2f3257
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_deco]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_timeout], owner=58256_140194085358464_30c37d3d
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_timeout]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant], owner=58256_140194085358464_0a6ee7d6
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_reentrant]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_renew], owner=58256_140194085358464_b497159a
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁已释放 [test_renew]
+2026-05-31 18:53:25 - common.distributed_lock - INFO - 锁获取成功 [test_auto_renew], owner=58256_140194085358464_0affe665
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_auto_renew]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_status], owner=58256_140194085358464_cb962732
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_status]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_info], owner=58256_140194085358464_36126c03
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_info]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=58256_140194074683072_af9472b7
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=58256_140194066290368_31c459ab
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=58256_140194057897664_24876690
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=58256_140194049504960_747da6ac
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:53:27 - common.distributed_lock - INFO - 锁获取成功 [test_concurrent], owner=58256_140193839445696_4e39187b
+2026-05-31 18:53:28 - common.distributed_lock - INFO - 锁已释放 [test_concurrent]
+2026-05-31 18:53:28 - common.distributed_lock - INFO - 锁获取成功 [test_reentrant_cls], owner=58256_140194085358464_3d3f717e
+2026-05-31 18:53:28 - common.distributed_lock - INFO - 锁已释放 [test_reentrant_cls]
+2026-05-31 18:53:28 - common.distributed_lock - INFO - 锁获取成功 [test_expire], owner=58256_140194085358464_c7d31aaa
+2026-05-31 18:53:28 - common.distributed_lock - INFO - 锁已释放 [test_expire]

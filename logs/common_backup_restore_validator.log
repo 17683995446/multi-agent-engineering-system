@@ -1,0 +1,9 @@
+2026-05-31 19:05:12 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:05:12 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:06:59 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过
+2026-05-31 19:07:34 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:07:34 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:07:35 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过

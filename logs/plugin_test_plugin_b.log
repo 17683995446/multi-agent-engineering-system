@@ -1,0 +1,15 @@
+2026-05-31 16:06:02 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:06:36 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:06:36 - plugin.test_plugin_b - INFO - Plugin test_plugin_b started
+2026-05-31 16:06:36 - plugin.test_plugin_b - INFO - Plugin test_plugin_b shutdown
+2026-05-31 16:06:36 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:06:36 - plugin.test_plugin_b - INFO - Plugin test_plugin_b started
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b started
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b shutdown
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b started
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b shutdown
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b initialized
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b started
+2026-05-31 16:07:01 - plugin.test_plugin_b - INFO - Plugin test_plugin_b shutdown

@@ -1,0 +1,13 @@
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: test_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: csp_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: csp_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 检测到 1 个冲突
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: csp_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 开始求解CSP，策略: backtracking
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 求解完成，步数: 4, 找到解: True
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: csp_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 开始求解CSP，策略: backtracking
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 求解完成，步数: 4, 找到解: True
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 冲突解决器初始化
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - CSP求解器初始化: csp_solver
+2026-05-29 05:35:14 - src.common.csp_solver - INFO - 检测到 1 个冲突

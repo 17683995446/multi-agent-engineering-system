@@ -1,0 +1,284 @@
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：开发一个企业级项目管理系统，策略：standard，深度：3
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 7
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：waterfall，深度：3
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 16
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：standard，深度：3
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 22
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：waterfall，深度：3
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 57
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：feature，深度：3
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 61
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试便捷函数，策略：standard，深度：2
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 7
+2026-05-28 16:23:26 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：开发一个企业级项目管理系统，策略：standard，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 13
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：构建一个高并发的实时聊天平台，策略：standard，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 13
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：设计并实现一个AI图像识别服务，策略：standard，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 13
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：waterfall，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 16
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：standard，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 34
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：waterfall，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：3 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 4
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 69
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试项目，策略：feature，深度：3
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 2
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 73
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - 开始HTD拆解：测试便捷函数，策略：standard，深度：2
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：2 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - WARNING - 子任务数量过少：0 < 5
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD拆解完成：任务总数 13
+2026-05-28 16:24:28 - src.common.htd_decomposer - INFO - HTD层级任务拆解器初始化完成

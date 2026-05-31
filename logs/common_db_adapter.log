@@ -1,0 +1,6 @@
+2026-05-31 18:47:58 - common.db_adapter.test_crud - INFO - 数据库适配器已关闭
+2026-05-31 18:47:58 - common.db_adapter.test_tx - ERROR - 事务回滚: 模拟错误
+2026-05-31 18:47:58 - common.db_adapter.test_tx - INFO - 数据库适配器已关闭
+2026-05-31 18:47:58 - common.db_adapter.test_pool - INFO - 数据库适配器已关闭
+2026-05-31 18:47:58 - common.db_adapter.test_health - INFO - 数据库适配器已关闭
+2026-05-31 18:47:58 - common.db_adapter.test_thread - INFO - 数据库适配器已关闭

@@ -1,0 +1,19 @@
+2026-05-31 19:04:35 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:35 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 1 个漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-1234 - Requests库SSRF漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 2 个漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-9012 - Flask会话伪造漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpad21x74e.txt, 发现 2 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-1234 - Requests库SSRF漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 2 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-9012 - Flask会话伪造漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpoq1e38jm.txt, 发现 2 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpfcajf2lf/requirements.txt, 发现 1 个漏洞

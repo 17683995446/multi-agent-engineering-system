@@ -1,0 +1,36 @@
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 撤销命令: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 撤销命令: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 重做命令: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 重做命令: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 撤销命令: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Set
+2026-05-31 18:51:11 - common.command_pattern - INFO - 撤销命令: Set
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 注册命令: increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 注册命令: set
+2026-05-31 18:51:11 - common.command_pattern - ERROR - 命令执行失败 [ErrorCommand]: Test error
+Traceback (most recent call last):
+  File "/workspace/scripts/../src/common/command_pattern.py", line 63, in run
+    result = self.execute()
+  File "/workspace/scripts/verify_stage69.py", line 378, in execute
+    raise ValueError("Test error")
+ValueError: Test error
+
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: Increment
+2026-05-31 18:51:11 - common.command_pattern - INFO - 命令入队: ErrorCommand
+2026-05-31 18:51:11 - common.command_pattern - ERROR - 命令执行失败 [ErrorCommand]: Test error
+Traceback (most recent call last):
+  File "/workspace/scripts/../src/common/command_pattern.py", line 63, in run
+    result = self.execute()
+  File "/workspace/scripts/verify_stage69.py", line 378, in execute
+    raise ValueError("Test error")
+ValueError: Test error
+

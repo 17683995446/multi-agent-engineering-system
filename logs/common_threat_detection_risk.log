@@ -1,0 +1,6 @@
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 风险评分: actor=actor1, score=0.58
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 风险评分: actor=unknown, score=0.51
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 风险评分: actor=unknown, score=0.51
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 风险评分: actor=unknown, score=0.41
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 更新风险权重: {'behavior_anomaly': 0.5, 'threat_intel': 0.5}
+2026-05-31 19:08:26 - common.threat_detection.risk - INFO - 风险评分: actor=user1, score=0.45

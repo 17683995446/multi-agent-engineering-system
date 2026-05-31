@@ -1,0 +1,23 @@
+{
+  "doc_id": "doc_1",
+  "title": "变更日志",
+  "type": "changelog",
+  "status": "draft",
+  "current_version": 1,
+  "created_at": "2026-05-28T14:38:15.546126",
+  "last_updated": "2026-05-28T14:38:15.546128",
+  "tags": [
+    "changelog"
+  ],
+  "versions": [
+    {
+      "version_id": "v1",
+      "number": 1,
+      "content": "# 变更日志\n\n## 版本历史\n\n- [2026-05-28T14:38:15] MODIFY: /test/file2.py\n- [2026-05-28T14:38:15] ADD: /test/file1.py\n\n---\n*生成于 2026-05-28 14:38:15*",
+      "author": "DocumentAgent",
+      "created_at": "2026-05-28T14:38:15.546098",
+      "change_summary": "初始版本",
+      "hash": "85c8266363699777e6f2fd16acfa05115da9e83cbf171fbc77003b89a65e4492"
+    }
+  ]
+}

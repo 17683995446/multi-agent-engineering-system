@@ -1,0 +1,18 @@
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件开始: demo_suite (2 用例)
+2026-05-31 19:07:02 - common.system_test - INFO - 执行测试: t1
+2026-05-31 19:07:02 - common.system_test - INFO - 测试完成: t1 -> passed
+2026-05-31 19:07:02 - common.system_test - INFO - 执行测试: t2
+2026-05-31 19:07:02 - common.system_test - INFO - 测试完成: t2 -> passed
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件完成: demo_suite (通过率 100.0%)
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件开始: report_suite (1 用例)
+2026-05-31 19:07:02 - common.system_test - INFO - 执行测试: r1
+2026-05-31 19:07:02 - common.system_test - INFO - 测试完成: r1 -> passed
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件完成: report_suite (通过率 100.0%)
+2026-05-31 19:07:02 - common.system_test - INFO - 测试报告已保存: /tmp/tmpkiv5jymz
+2026-05-31 19:07:02 - common.system_test - INFO - 系统测试框架初始化完成
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件开始: main_suite (2 用例)
+2026-05-31 19:07:02 - common.system_test - INFO - 执行测试: f1
+2026-05-31 19:07:02 - common.system_test - INFO - 测试完成: f1 -> passed
+2026-05-31 19:07:02 - common.system_test - INFO - 执行测试: f2
+2026-05-31 19:07:02 - common.system_test - INFO - 测试完成: f2 -> passed
+2026-05-31 19:07:02 - common.system_test - INFO - 测试套件完成: main_suite (通过率 100.0%)

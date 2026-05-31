@@ -1,0 +1,5 @@
+2026-05-31 19:06:50 - common.privacy_protection.consent - INFO - 同意授予: subject=user_1, purpose=marketing
+2026-05-31 19:06:50 - common.privacy_protection.consent - INFO - 同意授予: subject=user_1, purpose=marketing
+2026-05-31 19:06:50 - common.privacy_protection.consent - INFO - 同意撤销: subject=user_1, purpose=marketing
+2026-05-31 19:06:50 - common.privacy_protection.consent - INFO - 同意授予: subject=user_1, purpose=marketing
+2026-05-31 19:06:50 - common.privacy_protection.consent - INFO - 同意授予: subject=u1, purpose=analytics

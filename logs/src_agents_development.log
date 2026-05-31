@@ -1,0 +1,25 @@
+2026-05-28 00:04:33 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:04:33 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:04:33 - src.agents.development - INFO - 文件创建准备就绪：/tmp/test_dev.py
+2026-05-28 00:04:33 - src.agents.development - INFO - 文件修改准备就绪：/tmp/test_dev.py
+2026-05-28 00:04:33 - src.agents.development - INFO - 代码重构准备就绪：/tmp/test_dev.py
+2026-05-28 00:04:33 - src.agents.development - INFO - 问题修复准备就绪：/tmp/test_dev.py
+2026-05-28 00:04:34 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:04:34 - src.agents.development - INFO - 文件创建准备就绪：/tmp/good.py
+2026-05-28 00:04:34 - src.agents.development - INFO - 文件创建准备就绪：/tmp/bad.py
+2026-05-28 00:04:34 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:04:34 - src.agents.development - INFO - 文件修改准备就绪：/tmp/arch.py
+2026-05-28 00:04:34 - src.agents.development - INFO - 文件修改准备就绪：/tmp/dep.py
+2026-05-28 00:05:29 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:05:30 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:05:30 - src.agents.development - INFO - 文件创建准备就绪：/tmp/test_dev.py
+2026-05-28 00:05:30 - src.agents.development - INFO - 文件修改准备就绪：/tmp/test_dev.py
+2026-05-28 00:05:30 - src.agents.development - INFO - 代码重构准备就绪：/tmp/test_dev.py
+2026-05-28 00:05:30 - src.agents.development - INFO - 问题修复准备就绪：/tmp/test_dev.py
+2026-05-28 00:05:30 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:05:30 - src.agents.development - INFO - 文件创建准备就绪：/tmp/good.py
+2026-05-28 00:05:30 - src.agents.development - INFO - 文件创建准备就绪：/tmp/bad.py
+2026-05-28 00:05:31 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动
+2026-05-28 00:05:31 - src.agents.development - ERROR - 拒绝变更：change_mod_1 尝试修改架构或依赖
+2026-05-28 00:05:31 - src.agents.development - ERROR - 拒绝变更：change_mod_2 尝试修改架构或依赖
+2026-05-28 16:08:35 - src.agents.development - INFO - 开发Agent DevelopmentAgent 已启动

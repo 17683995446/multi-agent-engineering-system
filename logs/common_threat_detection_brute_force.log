@@ -1,0 +1,6 @@
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=attacker, attempts=3
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=attacker, attempts=4
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=user1, attempts=5
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=user1, attempts=6
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=user1, attempts=5
+2026-05-31 19:08:26 - common.threat_detection.brute_force - WARNING - 暴力破解: actor=user1, attempts=6

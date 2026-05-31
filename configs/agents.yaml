@@ -1,0 +1,60 @@
+agents:
+  scheduler:
+    name: "SchedulerAgent"
+    role: "总控调度"
+    capabilities:
+      - task_dispatch
+      - priority_control
+      - workflow_management
+
+  developer:
+    name: "DeveloperAgent"
+    role: "开发编码"
+    capabilities:
+      - code_generation
+      - refactoring
+      - bug_fix
+
+  architect:
+    name: "ArchitectAgent"
+    role: "架构设计"
+    capabilities:
+      - dependency_analysis
+      - module_boundary
+      -重构方案
+
+  reviewer:
+    name: "ReviewerAgent"
+    role: "代码评审"
+    capabilities:
+      - code_review
+      - quality_check
+      - security_scan
+
+  tester:
+    name: "TesterAgent"
+    role: "测试验证"
+    capabilities:
+      - test_generation
+      - regression_test
+      - coverage_analysis
+
+  documenter:
+    name: "DocumenterAgent"
+    role: "文档归档"
+    capabilities:
+      - doc_generation
+      - change_tracking
+      - archiving
+
+dependency_rules:
+  unidirectional: true
+  allowed_flows:
+    - input → workflow
+    - workflow → agents
+    - agents → code
+    - common → [input, workflow, agents, code]
+  forbidden_patterns:
+    - code → agents
+    - agents → workflow
+    - workflow → input

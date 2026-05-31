@@ -1,0 +1,66 @@
+2026-05-31 19:05:12 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始备份: bm_full, 类型: full
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 备份完成: bm_full, 大小: 224 字节
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始备份: restore_test, 类型: full
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 备份完成: restore_test, 大小: 232 字节
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始恢复: restore_test -> /tmp/tmp9qfmjg53/restored
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 恢复完成: restore_test
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始备份: del_test, 类型: full
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 备份完成: del_test, 大小: 229 字节
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 备份已删除: del_test
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始备份: tool_full, 类型: full
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 备份完成: tool_full, 大小: 229 字节
+2026-05-31 19:05:12 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 开始恢复: tool_full -> /tmp/tmpc7so04tx/restored
+2026-05-31 19:05:12 - common.backup_restore.manager - INFO - 恢复完成: tool_full
+2026-05-31 19:06:59 - common.backup_restore.manager - INFO - 开始备份: e2e_backup, 类型: full
+2026-05-31 19:06:59 - common.backup_restore.manager - INFO - 备份完成: e2e_backup, 大小: 238 字节
+2026-05-31 19:06:59 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过
+2026-05-31 19:06:59 - common.backup_restore.manager - INFO - 开始备份: perf, 类型: full
+2026-05-31 19:06:59 - common.backup_restore.manager - INFO - 备份完成: perf, 大小: 379 字节
+2026-05-31 19:07:00 - common.backup_restore.manager - INFO - 开始备份: cross, 类型: full
+2026-05-31 19:07:00 - common.backup_restore.manager - INFO - 备份完成: cross, 大小: 229 字节
+2026-05-31 19:07:34 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始备份: bm_full, 类型: full
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 备份完成: bm_full, 大小: 225 字节
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始备份: restore_test, 类型: full
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 备份完成: restore_test, 大小: 236 字节
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始恢复: restore_test -> /tmp/tmp2sv0fq2j/restored
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 恢复完成: restore_test
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始备份: del_test, 类型: full
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 备份完成: del_test, 大小: 230 字节
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 备份已删除: del_test
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始备份: tool_full, 类型: full
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 备份完成: tool_full, 大小: 231 字节
+2026-05-31 19:07:34 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 开始恢复: tool_full -> /tmp/tmp31ymx0c7/restored
+2026-05-31 19:07:34 - common.backup_restore.manager - INFO - 恢复完成: tool_full
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 开始备份: e2e_backup, 类型: full
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 备份完成: e2e_backup, 大小: 237 字节
+2026-05-31 19:07:35 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 开始备份: perf, 类型: full
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 备份完成: perf, 大小: 379 字节
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 开始备份: cross, 类型: full
+2026-05-31 19:07:35 - common.backup_restore.manager - INFO - 备份完成: cross, 大小: 231 字节
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 val1 校验和验证: 通过
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始备份: bm_full, 类型: full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份完成: bm_full, 大小: 226 字节
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始备份: restore_test, 类型: full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份完成: restore_test, 大小: 236 字节
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始恢复: restore_test -> /tmp/tmp7vfmjban/restored
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 恢复完成: restore_test
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始备份: del_test, 类型: full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份完成: del_test, 大小: 231 字节
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份已删除: del_test
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始备份: tool_full, 类型: full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份完成: tool_full, 大小: 230 字节
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 tool_full 校验和验证: 通过
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始恢复: tool_full -> /tmp/tmpcjntwod1/restored
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 恢复完成: tool_full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 开始备份: e2e_backup, 类型: full
+2026-05-31 19:07:45 - common.backup_restore.manager - INFO - 备份完成: e2e_backup, 大小: 238 字节
+2026-05-31 19:07:45 - common.backup_restore.validator - INFO - 备份 e2e_backup 校验和验证: 通过
+2026-05-31 19:07:46 - common.backup_restore.manager - INFO - 开始备份: perf, 类型: full
+2026-05-31 19:07:46 - common.backup_restore.manager - INFO - 备份完成: perf, 大小: 399 字节
+2026-05-31 19:07:46 - common.backup_restore.manager - INFO - 开始备份: cross, 类型: full
+2026-05-31 19:07:46 - common.backup_restore.manager - INFO - 备份完成: cross, 大小: 228 字节

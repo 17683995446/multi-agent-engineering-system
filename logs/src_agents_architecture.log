@@ -1,0 +1,12 @@
+2026-05-27 23:59:16 - src.agents.architecture - INFO - 架构Agent ArchitectureAgent 已启动
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 架构Agent ArchitectureAgent 已启动
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 开始分析工程依赖
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 依赖分析完成，发现 2 个问题
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 架构Agent ArchitectureAgent 已启动
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 开始锁定模块边界
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 模块边界锁定完成，共 4 个模块
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 开始生成重构方案
+2026-05-27 23:59:17 - src.agents.architecture - INFO - 重构方案生成完成，共 0 条建议
+2026-05-27 23:59:18 - src.agents.architecture - INFO - 架构Agent ArchitectureAgent 已启动
+2026-05-27 23:59:18 - src.agents.architecture - INFO - 开始分析工程依赖
+2026-05-27 23:59:18 - src.agents.architecture - INFO - 依赖分析完成，发现 0 个问题

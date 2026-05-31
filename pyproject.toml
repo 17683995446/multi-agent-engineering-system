@@ -1,0 +1,39 @@
+[project]
+name = "multi-agent-software-engineering"
+version = "0.1.0"
+description = "基于第一性原理+开源复用的轻量化多Agent软件工程系统"
+requires-python = ">=3.14"
+dependencies = [
+    "langgraph==1.2.1",
+    "langchain-openai==1.2.2",
+    "pyautogen==0.10.0",
+    "tree-sitter==0.25.2",
+    "tree-sitter-python==0.25.0",
+    "ruff==0.15.11",
+    "pytest==9.0.3",
+    "pyyaml==6.0.3",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.14"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false

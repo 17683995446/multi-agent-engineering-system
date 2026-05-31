@@ -1,0 +1,27 @@
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [extract] 执行成功，耗时 0.02ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [transform] 执行成功，耗时 0.02ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [load] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [test_pipeline] 执行成功，总耗时 0.32ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [process] 执行成功，耗时 0.02ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [validated_pipeline] 执行成功，总耗时 0.07ms
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 阶段 [process] 输入验证失败: ['值 -5 小于最小值 0']
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 流水线 [validated_pipeline] 在阶段 [process] 失败
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [stage1] 执行成功，耗时 0.03ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [stage2] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [dependency_pipeline] 执行成功，总耗时 0.14ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [multiply] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [context_pipeline] 执行成功，总耗时 0.05ms
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 阶段 [fail] 执行异常: 故意失败
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 流水线 [error_pipeline] 在阶段 [fail] 失败
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 阶段 [fail] 执行异常: 故意失败
+2026-05-31 18:43:28 - common.data_pipeline - ERROR - 流水线 [error_continue_pipeline] 在阶段 [fail] 失败
+2026-05-31 18:43:28 - common.data_pipeline - WARNING - 流水线 [error_continue_pipeline] 错误被忽略，继续执行
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [extract] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [transform] 执行成功，耗时 0.02ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [load] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [etl_pipeline] 执行成功，总耗时 0.16ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [s1] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [s2] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [summary_pipeline] 执行成功，总耗时 0.11ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 阶段 [a] 执行成功，耗时 0.01ms
+2026-05-31 18:43:28 - common.data_pipeline - INFO - 流水线 [skip_pipeline] 执行成功，总耗时 0.07ms

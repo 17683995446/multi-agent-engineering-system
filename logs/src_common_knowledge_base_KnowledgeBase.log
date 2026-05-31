@@ -1,0 +1,26 @@
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 0db1df9d-ff8f-42e1-9b59-49bd121e87d2: Python 装饰器
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry 0db1df9d-ff8f-42e1-9b59-49bd121e87d2 to version 2
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Deleted entry 0db1df9d-ff8f-42e1-9b59-49bd121e87d2
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry fc71f230-2346-4581-81a2-0f72bd1e0f98: Python 基础
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 4600d399-9c66-438e-94fc-94a364f67192: Python 高级
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry cadaba4e-481b-4a2f-b00a-7a05c69b52f3: Java 基础
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 54036705-294f-4a6b-90d4-f2d8fce44992: Docker 入门
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 01a32d45-e364-42ec-b448-72944a2d766a: Version Test
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry 01a32d45-e364-42ec-b448-72944a2d766a to version 2
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry 01a32d45-e364-42ec-b448-72944a2d766a to version 3
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Rolled back entry 01a32d45-e364-42ec-b448-72944a2d766a to version 1 -> 2
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry d262ed03-2063-42d3-ba8d-55c7a6c061a2: Persist Test
+2026-05-31 16:04:50 - src.common.knowledge_base.KnowledgeBase - INFO - Loaded 1 entries from /tmp/tmpp5lezi8o/kb.json
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry df174489-5718-42dc-9971-df49cb7739c8: Python 装饰器
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry df174489-5718-42dc-9971-df49cb7739c8 to version 2
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Deleted entry df174489-5718-42dc-9971-df49cb7739c8
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 7e91d2b5-e2ec-4da8-ac48-becd789ca223: Python 基础
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 2eccad59-57c9-42e9-a8e6-ec4075cdb368: Python 高级
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry 5147a2db-b1a6-49b9-a010-bed016f279a3: Java 基础
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry d52cfc2d-4781-41cd-aaf1-0d4528671d04: Docker 入门
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry d6a3d6e1-20a3-4bb5-a4d8-e8cb6117e8e7: Version Test
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry d6a3d6e1-20a3-4bb5-a4d8-e8cb6117e8e7 to version 2
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Updated entry d6a3d6e1-20a3-4bb5-a4d8-e8cb6117e8e7 to version 3
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Rolled back entry d6a3d6e1-20a3-4bb5-a4d8-e8cb6117e8e7 to version 1 -> 2
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Created entry ef22ed53-88a0-4b8a-81ba-b87b05c6a2d8: Persist Test
+2026-05-31 16:05:30 - src.common.knowledge_base.KnowledgeBase - INFO - Loaded 1 entries from /tmp/tmpudp74tbd/kb.json

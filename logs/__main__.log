@@ -1,0 +1,88 @@
+2026-05-26 04:52:10 - __main__ - INFO - 输入收敛层 initialized
+2026-05-26 04:52:10 - __main__ - INFO - 调度中枢层 initialized
+2026-05-26 04:52:10 - __main__ - INFO - 智能协作层 initialized
+2026-05-26 04:52:10 - __main__ - INFO - 原子执行层 initialized
+2026-05-26 04:52:10 - __main__ - INFO - Architecture manager initialized
+2026-05-26 04:52:10 - __main__ - INFO - Input layer initialized
+2026-05-26 04:52:10 - __main__ - INFO - Workflow layer initialized
+2026-05-26 04:52:10 - __main__ - INFO - Agent layer initialized
+2026-05-26 04:52:10 - __main__ - INFO - Code layer initialized
+2026-05-26 04:52:10 - __main__ - INFO - All layers initialized successfully
+2026-05-26 04:52:10 - __main__ - INFO - Verifying dependency order...
+2026-05-26 04:52:10 - __main__ - INFO - Input layer -> Workflow layer: LayerType.WORKFLOW
+2026-05-26 04:52:10 - __main__ - INFO - Workflow layer -> Agent layer: LayerType.AGENT
+2026-05-26 04:52:10 - __main__ - INFO - Agent layer -> Code layer: LayerType.CODE
+2026-05-26 04:52:10 - __main__ - INFO - Dependency order verified: ✓ 单向依赖规则符合
+2026-05-26 04:52:10 - __main__ - INFO - Starting pipeline execution...
+2026-05-26 04:52:10 - __main__ - INFO - Task received: task_001
+2026-05-26 04:52:10 - __main__ - INFO - Task received: True
+2026-05-26 04:52:10 - __main__ - INFO - Task dispatched: task_001
+2026-05-26 04:52:10 - __main__ - INFO - Task dispatched: {'task_id': 'task_001', 'status': 'dispatched'}
+2026-05-26 04:52:10 - __main__ - INFO - Task executed: task_001
+2026-05-26 04:52:10 - __main__ - INFO - Task executed by agent: {'task_id': 'task_001', 'status': 'executed'}
+2026-05-26 04:52:10 - __main__ - INFO - Code task executed: task_001
+2026-05-26 04:52:10 - __main__ - INFO - Task executed by code: {'task_id': 'task_001', 'status': 'code_executed'}
+2026-05-26 04:52:10 - __main__ - INFO - Pipeline execution completed
+2026-05-26 04:52:10 - __main__ - INFO - Input layer shutdown
+2026-05-26 04:52:10 - __main__ - INFO - Workflow layer shutdown
+2026-05-26 04:52:10 - __main__ - INFO - Agent layer shutdown
+2026-05-26 04:52:10 - __main__ - INFO - Code layer shutdown
+2026-05-26 04:52:10 - __main__ - INFO - All layers shutdown successfully
+2026-05-26 04:56:30 - __main__ - INFO - ============================================================
+2026-05-26 04:56:30 - __main__ - INFO - 开始全局DAG单向依赖校验
+2026-05-26 04:56:30 - __main__ - INFO - ============================================================
+2026-05-26 04:56:30 - __main__ - INFO - 开始扫描项目依赖: /workspace
+2026-05-26 04:56:30 - __main__ - INFO - 依赖扫描完成: 32 个节点, 18 条边
+2026-05-26 04:56:30 - __main__ - INFO - 开始检测循环依赖...
+2026-05-26 04:56:30 - __main__ - INFO - 检测到 0 个循环依赖
+2026-05-26 04:56:30 - __main__ - INFO - 开始检测双向依赖...
+2026-05-26 04:56:30 - __main__ - INFO - 检测到 0 对双向依赖
+2026-05-26 04:56:30 - __main__ - INFO - 开始验证层级单向依赖...
+2026-05-26 04:56:30 - __main__ - INFO - ✓ 层级单向依赖验证通过
+2026-05-26 04:56:30 - __main__ - INFO - 生成依赖拓扑...
+2026-05-26 04:56:30 - __main__ - INFO - 生成可视化依赖图...
+2026-05-26 04:56:30 - __main__ - INFO - ============================================================
+2026-05-26 04:56:30 - __main__ - INFO - 依赖校验结果:
+2026-05-26 04:56:30 - __main__ - INFO -   总节点数: 32
+2026-05-26 04:56:30 - __main__ - INFO -   总边数: 18
+2026-05-26 04:56:30 - __main__ - INFO -   循环依赖: 0 个
+2026-05-26 04:56:30 - __main__ - INFO -   双向依赖: 0 对
+2026-05-26 04:56:30 - __main__ - INFO -   层级依赖合规: ✓
+2026-05-26 04:56:30 - __main__ - INFO -   总体通过: ✓
+2026-05-26 04:56:30 - __main__ - INFO - ============================================================
+2026-05-26 05:30:30 - __main__ - INFO - 状态管理器初始化完成 - 三层状态隔离
+2026-05-26 05:30:30 - __main__ - INFO - 创建任务状态: task_001 = pending
+2026-05-26 05:30:30 - __main__ - INFO - 创建业务状态: order_001 = initial
+2026-05-26 05:30:30 - __main__ - INFO - 创建系统状态: system_main = healthy
+2026-05-26 05:30:30 - __main__ - INFO - 更新任务状态: task_001 = running
+2026-05-26 05:30:30 - __main__ - INFO - 更新业务状态: order_001 = processing
+2026-05-26 05:30:30 - __main__ - INFO - 更新系统状态: system_main = healthy
+2026-05-26 05:30:30 - __main__ - INFO - 验证三层状态隔离...
+2026-05-26 05:30:30 - __main__ - INFO - 状态隔离验证: 任务=1, 业务=1, 系统=1
+2026-05-26 05:52:34 - __main__ - INFO - 开始扫描项目: /workspace
+2026-05-26 05:52:34 - __main__ - INFO - 扫描完成: 28 个文件, 456 个问题
+2026-05-26 05:53:51 - __main__ - INFO - 开始扫描项目: /workspace
+2026-05-26 05:53:51 - __main__ - INFO - 扫描完成: 28 个文件, 293 个问题
+2026-05-26 10:14:08 - __main__ - INFO - 全局规范管理器初始化完成
+2026-05-26 10:21:36 - __main__ - INFO - 原子实体注册表初始化完成
+2026-05-26 11:11:26 - __main__ - INFO - 权限管理器初始化完成
+2026-05-26 11:11:26 - __main__ - INFO - 访问日志: agent=agent_developer, resource=task_001, operation=write, result=allowed
+2026-05-26 11:11:26 - __main__ - INFO - 访问日志: agent=agent_developer, resource=code_main.py, operation=write, result=read_only
+2026-05-26 11:11:26 - __main__ - INFO - 访问日志: agent=agent_reviewer, resource=code_main.py, operation=read, result=allowed
+2026-05-26 11:11:26 - __main__ - INFO - 访问日志: agent=agent_viewer, resource=code_main.py, operation=write, result=read_only
+2026-05-26 16:00:24 - __main__ - INFO - 初始化 6 个架构公理验证器
+2026-05-26 16:00:24 - __main__ - INFO - 架构强制实施器初始化完成
+2026-05-26 16:00:24 - __main__ - INFO - 注册架构基线: MultiAgentSE v1.0.0
+2026-05-26 16:00:24 - __main__ - WARNING - 架构基线已锁定: MultiAgentSE
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [SSV-001] 状态分离检测: 缺少状态类型: {'business', 'task', 'system'}
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [DUV-001] 循环依赖检测: 检测到循环依赖: a -> b -> c
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [MEV-001] 隐式信息检测: 任务缺少必填字段: {'description'}
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [SSV-001] 状态分离检测: 缺少状态类型: {'business', 'task', 'system'}
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [DUV-001] 循环依赖检测: 检测到循环依赖: a -> b -> c
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [MEV-001] 隐式信息检测: 任务缺少必填字段: {'description'}
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [SSV-001] 状态分离检测: 缺少状态类型: {'business', 'task', 'system'}
+2026-05-26 16:00:24 - __main__ - CRITICAL - 检测到 1 个严重违规，操作被拦截
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [DUV-001] 循环依赖检测: 检测到循环依赖: a -> b -> c
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [MEV-001] 隐式信息检测: 任务缺少必填字段: {'description'}
+2026-05-26 16:00:24 - __main__ - WARNING - 架构违规 [SSV-001] 状态分离检测: 缺少状态类型: {'business', 'task', 'system'}
+2026-05-26 16:00:24 - __main__ - CRITICAL - 架构约束拦截: agent=agent_developer, reason=操作违反第一性架构公理

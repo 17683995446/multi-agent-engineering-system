@@ -1,0 +1,54 @@
+2026-05-31 19:04:35 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:35 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 1 个漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-1234 - Requests库SSRF漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 2 个漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-9012 - Flask会话伪造漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:04:52 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpad21x74e.txt, 发现 2 个漏洞
+2026-05-31 19:04:52 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC002 at /tmp/tmpatmdzkzs.py:2
+2026-05-31 19:04:52 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC004 at /tmp/tmpatmdzkzs.py:3
+2026-05-31 19:04:52 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC006 at /tmp/tmpatmdzkzs.py:4
+2026-05-31 19:04:52 - common.security_scanner.code_security - INFO - 代码安全扫描完成: /tmp/tmpatmdzkzs.py, 发现 3 个问题
+2026-05-31 19:04:52 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 最小密码长度仅为 0
+2026-05-31 19:04:52 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 未要求密码复杂度
+2026-05-31 19:04:52 - common.security_scanner.config_security - INFO - 配置安全扫描完成: {"port": 3306, "csrf_enabled": false, "cors": {"allow_all": true}}, 发现 2 个问题
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-1234 - Requests库SSRF漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: django<4.2.7
+requests<2.31.0, 发现 2 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-9012 - Flask会话伪造漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpoq1e38jm.txt, 发现 2 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC002 at /tmp/tmpvkf1w7lg.py:2
+2026-05-31 19:05:05 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC004 at /tmp/tmpvkf1w7lg.py:3
+2026-05-31 19:05:05 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC006 at /tmp/tmpvkf1w7lg.py:4
+2026-05-31 19:05:05 - common.security_scanner.code_security - INFO - 代码安全扫描完成: /tmp/tmpvkf1w7lg.py, 发现 3 个问题
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 最小密码长度仅为 0
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 未要求密码复杂度
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG002 - 服务运行在默认端口 3306
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG003 - CSRF保护已显式关闭
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG004 - CORS允许所有来源
+2026-05-31 19:05:05 - common.security_scanner.config_security - INFO - 配置安全扫描完成: {"port": 3306, "csrf_enabled": false, "cors": {"allow_all": true}}, 发现 5 个问题
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - WARNING - 发现密钥泄露: LEAK001 at /tmp/tmp04bu_dkc.py:1
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - WARNING - 发现密钥泄露: LEAK002 at /tmp/tmp04bu_dkc.py:2
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - INFO - 密钥泄露扫描完成: /tmp/tmp04bu_dkc.py, 发现 2 个泄露
+2026-05-31 19:05:05 - common.security_scanner - INFO - 开始全量安全扫描
+2026-05-31 19:05:05 - common.security_scanner.code_security - WARNING - 发现代码安全问题: SEC004 at /tmp/tmpfcajf2lf/test.py:1
+2026-05-31 19:05:05 - common.security_scanner.code_security - INFO - 代码安全扫描完成: /tmp/tmpfcajf2lf, 发现 1 个问题
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 最小密码长度仅为 0
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG001 - 未要求密码复杂度
+2026-05-31 19:05:05 - common.security_scanner.config_security - WARNING - 发现配置安全问题: CFG002 - 服务运行在默认端口 8080
+2026-05-31 19:05:05 - common.security_scanner.config_security - INFO - 配置安全扫描完成: /tmp/tmpfcajf2lf/config.json, 发现 3 个问题
+2026-05-31 19:05:05 - common.security_scanner.dependency - WARNING - 发现依赖漏洞: CVE-2023-5678 - Django SQL注入漏洞
+2026-05-31 19:05:05 - common.security_scanner.dependency - INFO - 依赖扫描完成: /tmp/tmpfcajf2lf/requirements.txt, 发现 1 个漏洞
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - INFO - 密钥泄露扫描完成: /tmp/tmpfcajf2lf, 发现 0 个泄露
+2026-05-31 19:05:05 - common.security_scanner - INFO - 全量扫描完成，共发现 5 个安全问题
+2026-05-31 19:05:05 - common.security_scanner.code_security - INFO - 添加安全规则: CUSTOM001
+2026-05-31 19:05:05 - common.security_scanner.code_security - WARNING - 发现代码安全问题: CUSTOM001 at /tmp/tmpoo698oum.py:1
+2026-05-31 19:05:05 - common.security_scanner.code_security - INFO - 代码安全扫描完成: /tmp/tmpoo698oum.py, 发现 1 个问题
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - INFO - 添加密钥检测模式: CUSTOM_SECRET
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - WARNING - 发现密钥泄露: CUSTOM_SECRET at /tmp/tmpczuh7csl.py:1
+2026-05-31 19:05:05 - common.security_scanner.secret_leak - INFO - 密钥泄露扫描完成: /tmp/tmpczuh7csl.py, 发现 1 个泄露

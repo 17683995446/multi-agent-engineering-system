@@ -1,0 +1,31 @@
+2026-05-28 10:42:00 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:42:01 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:42:01 - src.agents.testing - INFO - 生成单元测试：单元测试套件
+2026-05-28 10:42:01 - src.agents.testing - INFO - 生成边界测试：divide
+2026-05-28 10:42:01 - src.agents.testing - INFO - 生成异常测试：divide
+2026-05-28 10:42:01 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:42:01 - src.agents.testing - INFO - 开始回归测试：result_1
+2026-05-28 10:42:01 - src.agents.testing - INFO - 运行Pytest：/tmp/test1.py
+2026-05-28 10:42:02 - src.agents.testing - INFO - 运行Pytest：/tmp/test2.py
+2026-05-28 10:42:02 - src.agents.testing - INFO - 回归测试完成：通过率 0.0%
+2026-05-28 10:43:11 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:43:11 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:43:11 - src.agents.testing - INFO - 生成单元测试：单元测试套件
+2026-05-28 10:43:11 - src.agents.testing - INFO - 生成边界测试：divide
+2026-05-28 10:43:11 - src.agents.testing - INFO - 生成异常测试：divide
+2026-05-28 10:43:12 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:43:12 - src.agents.testing - INFO - 生成单元测试：单元测试套件
+2026-05-28 10:43:12 - src.agents.testing - INFO - 生成Pytest文件：/tmp/suite_unit_1.py
+2026-05-28 10:43:12 - src.agents.testing - INFO - 开始回归测试：result_1
+2026-05-28 10:43:12 - src.agents.testing - INFO - 运行Pytest：/tmp/suite_unit_1.py
+2026-05-28 10:43:12 - src.agents.testing - INFO - 回归测试完成：通过率 0.0%
+2026-05-28 10:43:13 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 10:43:13 - src.agents.testing - INFO - 生成单元测试：单元测试套件
+2026-05-28 10:43:13 - src.agents.testing - INFO - 生成Pytest文件：/tmp/suite_unit_1.py
+2026-05-28 10:43:13 - src.agents.testing - INFO - 运行Pytest：/tmp/suite_unit_1.py
+2026-05-28 11:10:25 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 15:54:17 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 15:54:18 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 15:54:18 - src.agents.testing - INFO - 生成单元测试：单元测试套件
+2026-05-28 16:08:35 - src.agents.testing - INFO - 测试Agent TestingAgent 已启动
+2026-05-28 16:08:35 - src.agents.testing - INFO - 生成单元测试：单元测试套件

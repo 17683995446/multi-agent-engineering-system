@@ -1,0 +1,95 @@
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: GDPR_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: GDPR_002 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: ISO27001_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: ISO27001_002 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: SOC2_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: PCI_DSS_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: HIPAA_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.remediation - INFO - 生成整改建议: f1
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.remediation - INFO - 生成整改建议: f1
+2026-05-31 19:10:02 - common.compliance_checker.remediation - INFO - 生成整改建议: f2
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.reporter - INFO - 生成报告: report_gdpr_20260531191002, 合规率=50.00%
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.reporter - INFO - 生成报告: report_gdpr_20260531191002, 合规率=50.00%
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker - INFO - 开始合规评估: framework=gdpr
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: GDPR_001 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 检查完成: GDPR_002 -> compliant
+2026-05-31 19:10:02 - common.compliance_checker.reporter - INFO - 生成报告: report_gdpr_20260531191002, 合规率=100.00%
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: CUSTOM_001
+2026-05-31 19:10:02 - common.compliance_checker.checker - INFO - 注册检查处理器: CUSTOM_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: GDPR_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: ISO27001_002
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: SOC2_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: PCI_DSS_001
+2026-05-31 19:10:02 - common.compliance_checker.rules - INFO - 注册合规规则: HIPAA_001

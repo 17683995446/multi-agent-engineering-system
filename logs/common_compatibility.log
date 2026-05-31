@@ -1,0 +1,8 @@
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册废弃记录: old_api (since 1.0.0)
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册废弃记录: test_deprecated_decorator.<locals>.old_func (since 1.0.0)
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册迁移: 1.0.0 -> 1.1.0
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册迁移: 1.1.0 -> 2.0.0
+2026-05-31 18:46:54 - common.compatibility - INFO - 迁移完成: 2.0.0 -> 2.0.0，应用 2 个迁移
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册API适配器: get (vv1)
+2026-05-31 18:46:54 - common.compatibility - INFO - 注册API适配器: get (vv2)
+2026-05-31 18:46:54 - common.compatibility - INFO - 兼容性层初始化完成

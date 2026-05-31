@@ -1,0 +1,34 @@
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: user
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:22 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置热加载已启用，间隔 0.5s
+2026-05-31 16:12:22 - common.config_manager - INFO - 配置热加载: project 层配置已更新
+2026-05-31 16:12:23 - common.config_manager - INFO - 配置热加载已禁用
+2026-05-31 16:12:23 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:23 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: user
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: system
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:49 - common.config_manager - INFO - 注册配置源: project
+2026-05-31 16:12:49 - common.config_manager - INFO - 配置热加载已启用，间隔 0.5s
+2026-05-31 16:12:50 - common.config_manager - INFO - 配置热加载: project 层配置已更新
+2026-05-31 16:12:50 - common.config_manager - INFO - 配置热加载已禁用
+2026-05-31 16:12:50 - common.config_manager - INFO - 配置管理器初始化完成
+2026-05-31 16:12:50 - common.config_manager - INFO - 注册配置源: system

@@ -1,0 +1,38 @@
+2026-05-31 18:47:59 - common.mq_adapter.consumer.test.events - INFO - 消费者已启动: test.events
+2026-05-31 18:47:59 - common.mq_adapter.consumer.test.events - INFO - 消费者已停止: test.events
+2026-05-31 18:47:59 - common.mq_adapter.consumer.test.events - INFO - 消费者已停止: test.events
+2026-05-31 18:47:59 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:47:59 - common.mq_adapter.test_pubsub - INFO - 消息队列适配器已关闭
+2026-05-31 18:47:59 - common.mq_adapter.consumer.ack.topic - INFO - 消费者已启动: ack.topic
+2026-05-31 18:47:59 - common.mq_adapter.consumer.ack.topic - INFO - 消费者已停止: ack.topic
+2026-05-31 18:47:59 - common.mq_adapter.consumer.ack.topic - INFO - 消费者已停止: ack.topic
+2026-05-31 18:47:59 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:47:59 - common.mq_adapter.test_ack - INFO - 消息队列适配器已关闭
+2026-05-31 18:47:59 - common.mq_adapter.consumer.dlq.topic - INFO - 消费者已启动: dlq.topic
+2026-05-31 18:47:59 - common.mq_adapter.consumer.dlq.topic - ERROR - 消费处理失败: 模拟处理失败
+2026-05-31 18:47:59 - common.mq_adapter.in_memory - WARNING - 消息重新入队: 1405fe0d-0775-4c26-9210-388df9f65b3f, 重试次数: 1
+2026-05-31 18:48:00 - common.mq_adapter.consumer.dlq.topic - ERROR - 消费处理失败: 模拟处理失败
+2026-05-31 18:48:00 - common.mq_adapter.in_memory - WARNING - 消息重新入队: 1405fe0d-0775-4c26-9210-388df9f65b3f, 重试次数: 2
+2026-05-31 18:48:00 - common.mq_adapter.consumer.dlq.topic - ERROR - 消费处理失败: 模拟处理失败
+2026-05-31 18:48:00 - common.mq_adapter.in_memory - ERROR - 消息进入死信队列: 1405fe0d-0775-4c26-9210-388df9f65b3f
+2026-05-31 18:48:01 - common.mq_adapter.consumer.dlq.topic - INFO - 消费者已停止: dlq.topic
+2026-05-31 18:48:01 - common.mq_adapter.consumer.dlq.topic - INFO - 消费者已停止: dlq.topic
+2026-05-31 18:48:01 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:48:01 - common.mq_adapter.test_dlq - INFO - 消息队列适配器已关闭
+2026-05-31 18:48:01 - common.mq_adapter.consumer.batch.topic - INFO - 消费者已启动: batch.topic
+2026-05-31 18:48:01 - common.mq_adapter.consumer.batch.topic - INFO - 消费者已停止: batch.topic
+2026-05-31 18:48:01 - common.mq_adapter.consumer.batch.topic - INFO - 消费者已停止: batch.topic
+2026-05-31 18:48:01 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:48:01 - common.mq_adapter.test_batch - INFO - 消息队列适配器已关闭
+2026-05-31 18:48:01 - common.mq_adapter.consumer.manage.topic - INFO - 消费者已启动: manage.topic
+2026-05-31 18:48:02 - common.mq_adapter.consumer.manage.topic - INFO - 消费者已停止: manage.topic
+2026-05-31 18:48:02 - common.mq_adapter.consumer.manage.topic - INFO - 消费者已停止: manage.topic
+2026-05-31 18:48:02 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:48:02 - common.mq_adapter.test_consumer - INFO - 消息队列适配器已关闭
+2026-05-31 18:48:02 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:48:02 - common.mq_adapter.test_stats - INFO - 消息队列适配器已关闭
+2026-05-31 18:48:02 - common.mq_adapter.consumer.thread.topic - INFO - 消费者已启动: thread.topic
+2026-05-31 18:48:02 - common.mq_adapter.consumer.thread.topic - INFO - 消费者已停止: thread.topic
+2026-05-31 18:48:02 - common.mq_adapter.consumer.thread.topic - INFO - 消费者已停止: thread.topic
+2026-05-31 18:48:02 - common.mq_adapter.in_memory - INFO - 内存MQ后端已关闭
+2026-05-31 18:48:02 - common.mq_adapter.test_thread - INFO - 消息队列适配器已关闭

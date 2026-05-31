@@ -1,0 +1,4 @@
+2026-05-31 19:11:47 - common.security_policy.evaluator - INFO - 策略规则匹配: p1/r1 -> allow
+2026-05-31 19:11:47 - common.security_policy.evaluator - INFO - 策略规则匹配: p1/allow_read -> allow
+2026-05-31 19:11:47 - common.security_policy.evaluator - INFO - 策略规则匹配: p1/deny_delete -> deny
+2026-05-31 19:11:47 - common.security_policy.evaluator - INFO - 策略规则匹配: p1/r1 -> allow

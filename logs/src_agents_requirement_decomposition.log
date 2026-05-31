@@ -1,0 +1,38 @@
+2026-05-27 23:42:18 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 开始分解需求：开发一个简单的博客系统
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 需求分解完成，共 17 个任务
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 开始分解需求：开发一个用户管理功能
+2026-05-27 23:42:19 - src.agents.requirement_decomposition - INFO - 需求分解完成，共 17 个任务
+2026-05-27 23:42:20 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-27 23:42:20 - src.agents.requirement_decomposition - INFO - 开始分解需求：开发一个电商购物车
+2026-05-27 23:42:20 - src.agents.requirement_decomposition - INFO - 需求分解完成，共 17 个任务
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 开始分解需求：开发一个简单的登录系统
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 需求分解完成，共 17 个任务
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 开始分解需求：开发一个用户管理系统
+2026-05-28 11:10:25 - src.agents.requirement_decomposition - INFO - 需求分解完成，共 17 个任务
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 开始HTD分解需求：开发一个企业级项目管理系统，策略：standard
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - HTD需求分解完成，共 7 个任务
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 开始兼容模式分解需求：向后兼容性测试
+2026-05-28 16:23:26 - src.agents.requirement_decomposition - INFO - 兼容模式分解完成，共 17 个任务
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 开始HTD分解需求：开发一个企业级项目管理系统，策略：standard
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - HTD需求分解完成，共 13 个任务
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 开始HTD分解需求：构建一个高并发的实时聊天平台，策略：standard
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - HTD需求分解完成，共 13 个任务
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 开始HTD分解需求：设计并实现一个AI图像识别服务，策略：standard
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - HTD需求分解完成，共 13 个任务
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 需求拆解Agent初始化，集成HTD分解器
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 需求拆解Agent RequirementDecompositionAgent 已启动
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 开始兼容模式分解需求：向后兼容性测试
+2026-05-28 16:24:28 - src.agents.requirement_decomposition - INFO - 兼容模式分解完成，共 17 个任务

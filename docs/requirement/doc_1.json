@@ -1,0 +1,30 @@
+{
+  "doc_id": "doc_1",
+  "title": "测试文档",
+  "type": "requirement",
+  "status": "review",
+  "current_version": 2,
+  "created_at": "2026-05-28T14:38:14.957348",
+  "last_updated": "2026-05-28T14:38:14.957779",
+  "tags": [],
+  "versions": [
+    {
+      "version_id": "v1",
+      "number": 1,
+      "content": "初始内容",
+      "author": "DocumentAgent",
+      "created_at": "2026-05-28T14:38:14.957315",
+      "change_summary": "初始版本",
+      "hash": "811081b3c3309ecd2303d933f8912fd331b30da0ed92d5716907ad796f9183b2"
+    },
+    {
+      "version_id": "v2",
+      "number": 2,
+      "content": "更新后的内容",
+      "author": "DocumentAgent",
+      "created_at": "2026-05-28T14:38:14.957769",
+      "change_summary": "第一次更新",
+      "hash": "6f206dbe55573bf513521adfdf32f401fd7ea80a5b75623d36c46aafcba343fb"
+    }
+  ]
+}

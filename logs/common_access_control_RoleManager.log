@@ -1,0 +1,5 @@
+2026-05-31 19:06:44 - common.access_control.RoleManager - INFO - 创建角色: custom_role
+2026-05-31 19:06:44 - common.access_control.RoleManager - WARNING - 角色已存在: custom_role
+2026-05-31 19:06:44 - common.access_control.RoleManager - INFO - 删除角色: custom_role
+2026-05-31 19:06:44 - common.access_control.RoleManager - INFO - 为角色 viewer 添加权限 write
+2026-05-31 19:06:44 - common.access_control.RoleManager - INFO - 从角色 viewer 移除权限 write
