@@ -1,0 +1,90 @@
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_1
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_2
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: gen_agent
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmp4_936rdy.py (5 个)
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmp4_936rdy.py (8 个)
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 边界值测试生成完成: add (3 个)
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 异常测试生成完成: add (1 个)
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: run_agent
+2026-06-04 00:13:48 - src.mvp_core.testing_agent - INFO - 测试执行完成: 0/0 通过
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_1
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_2
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: gen_agent
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpt696mgxf.py (5 个)
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpt696mgxf.py (8 个)
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 边界值测试生成完成: add (3 个)
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 异常测试生成完成: add (1 个)
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:16:38 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: run_agent
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - 测试执行完成: 2/2 通过
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: report_agent
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: cov_agent
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - 覆盖率分析完成: 行覆盖率 0.0%
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: save_agent
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - 为函数 multiply 生成 5 个测试用例
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmp9gmj5vej.py (5 个)
+2026-06-04 00:16:39 - src.mvp_core.testing_agent - INFO - 测试文件已保存: /tmp/tmp9gmj5vej_test.py
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_1
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_2
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: gen_agent
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpcd3botnq.py (5 个)
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpcd3botnq.py (8 个)
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 边界值测试生成完成: add (3 个)
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 异常测试生成完成: add (1 个)
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:17:43 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: run_agent
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - 测试执行完成: 2/2 通过
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: report_agent
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: cov_agent
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - 覆盖率分析完成: 行覆盖率 0.0%
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: save_agent
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - 为函数 multiply 生成 5 个测试用例
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmp7b6f7vxh.py (5 个)
+2026-06-04 00:17:44 - src.mvp_core.testing_agent - INFO - 测试文件已保存: /tmp/tmp7b6f7vxh_test.py
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_1
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: test_agent_2
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: gen_agent
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpr18z_d5e.py (5 个)
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 为函数 add 生成 5 个测试用例
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpr18z_d5e.py (8 个)
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 边界值测试生成完成: add (3 个)
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 异常测试生成完成: add (1 个)
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 为函数 greet 生成 3 个测试用例
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: run_agent
+2026-06-04 00:26:20 - src.mvp_core.testing_agent - INFO - 测试执行完成: 2/2 通过
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: report_agent
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: cov_agent
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - 覆盖率分析完成: 行覆盖率 0.0%
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: save_agent
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - 为函数 multiply 生成 5 个测试用例
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - 测试用例生成完成: /tmp/tmpsefzic58.py (5 个)
+2026-06-04 00:26:21 - src.mvp_core.testing_agent - INFO - 测试文件已保存: /tmp/tmpsefzic58_test.py
+2026-06-04 00:27:43 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:28:09 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:28:09 - src.mvp_core.testing_agent - ERROR - 任务执行失败: 文件不存在: None
+2026-06-04 00:28:09 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: receiver
+2026-06-04 00:28:23 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:28:23 - src.mvp_core.testing_agent - ERROR - 任务执行失败: 文件不存在: None
+2026-06-04 00:28:23 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: receiver
+2026-06-04 00:28:23 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:28:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:28:48 - src.mvp_core.testing_agent - ERROR - 任务执行失败: 文件不存在: None
+2026-06-04 00:28:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: receiver
+2026-06-04 00:28:48 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:29:10 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:29:10 - src.mvp_core.testing_agent - ERROR - 任务执行失败: 文件不存在: None
+2026-06-04 00:29:10 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: receiver
+2026-06-04 00:29:10 - src.mvp_core.testing_agent - INFO - TestingAgent初始化完成: tester
+2026-06-04 00:29:10 - src.mvp_core.testing_agent - ERROR - 任务执行失败: 不支持的操作: None

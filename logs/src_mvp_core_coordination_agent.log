@@ -1,0 +1,277 @@
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: test_coordination
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (e077290d)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dependency_test (59edc3d5)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: circular (89517cba)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - ERROR - 任务不存在
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - ERROR - 任务不能依赖自身
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - WARNING - 无法移除任务 a: 存在依赖
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: serial_test (1dab4b88)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: serial_test
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: s1 (串行1)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: s1
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: s2 (串行2)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: s2
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: s3 (串行3)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: s3
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: serial_test
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: parallel_test (469ca985)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: parallel_test
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: p1 (并行1)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: p2 (并行2)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: p1
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: p2
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: p3 (并行3)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: p3
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: parallel_test
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev_agent
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: test_agent
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: review_agent
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - WARNING - Agent已注册: dev_agent
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dev_workflow (0bcaa282)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 创建工作流: dev_workflow (0bcaa282)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: dev_workflow
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: dev_workflow
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: analysis (需求分析)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: analysis
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: design (架构设计)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: design
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: coding (编码实现)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: coding
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: testing (单元测试)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: review (代码审查)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: testing
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: review
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: dev_workflow
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 从协调器注销Agent: test_agent
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: get_status
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: decompose_coord
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: decompose_requirement
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: workflow_task_001 (25ae42e6)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 创建工作流: workflow_task_001 (25ae42e6)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 需求分解为工作流: 25ae42e6
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: execute_workflow
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: workflow_task_001
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: workflow_task_001
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_001 (需求: 实现用户登录功能)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_001
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_002 (需求分析)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_002
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_003 (架构设计)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_003
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_004 (编码实现)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_004
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_005 (单元测试)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_005
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 执行任务: task_006 (代码审查)
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 任务完成: task_006
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: workflow_task_001
+2026-06-04 00:13:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dict_test (a0dfa572)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: test_coordination
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (ce8e6576)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dependency_test (8811eda0)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: circular (070dd1c3)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - ERROR - 任务不存在
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - ERROR - 任务不能依赖自身
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - WARNING - 无法移除任务 a: 存在依赖
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: serial_test (e22587d8)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: serial_test
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: s1 (串行1)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: s1
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: s2 (串行2)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: s2
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: s3 (串行3)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: s3
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: serial_test
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: parallel_test (a1566e9c)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: parallel_test
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: p1 (并行1)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: p1
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: p2 (并行2)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: p2
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: p3 (并行3)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: p3
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: parallel_test
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev_agent
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: test_agent
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: review_agent
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - WARNING - Agent已注册: dev_agent
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dev_workflow (4f23e1fd)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 创建工作流: dev_workflow (4f23e1fd)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: dev_workflow
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: dev_workflow
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: analysis (需求分析)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: analysis
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: design (架构设计)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: design
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: coding (编码实现)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: coding
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: testing (单元测试)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: review (代码审查)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: testing
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: review
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: dev_workflow
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 从协调器注销Agent: test_agent
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: get_status
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: decompose_coord
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: decompose_requirement
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: workflow_task_001 (f39b1f79)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 创建工作流: workflow_task_001 (f39b1f79)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 需求分解为工作流: f39b1f79
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: execute_workflow
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: workflow_task_001
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: workflow_task_001
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_001 (需求: 实现用户登录功能)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_001
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_002 (需求分析)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_002
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_003 (架构设计)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_003
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_004 (编码实现)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_004
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_005 (单元测试)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_005
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 执行任务: task_006 (代码审查)
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 任务完成: task_006
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: workflow_task_001
+2026-06-04 00:17:43 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dict_test (edd52b6e)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: test_coordination
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (707648c5)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dependency_test (b2267c23)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: circular (980f7231)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - ERROR - 任务不存在
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - ERROR - 任务不能依赖自身
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - WARNING - 无法移除任务 a: 存在依赖
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: serial_test (5e896436)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: serial_test
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: s1 (串行1)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: s1
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: s2 (串行2)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: s2
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: s3 (串行3)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: s3
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: serial_test
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: parallel_test (628dbeaa)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: parallel_test
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: p1 (并行1)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: p1
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: p2 (并行2)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: p2
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: p3 (并行3)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: p3
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: parallel_test
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev_agent
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: test_agent
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: review_agent
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - WARNING - Agent已注册: dev_agent
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dev_workflow (8ce8eeef)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 创建工作流: dev_workflow (8ce8eeef)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: dev_workflow
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: dev_workflow
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: analysis (需求分析)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: analysis
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: design (架构设计)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: design
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: coding (编码实现)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: coding
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: testing (单元测试)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: review (代码审查)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: testing
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: review
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: dev_workflow
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 从协调器注销Agent: test_agent
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: get_status
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: decompose_coord
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: decompose_requirement
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: workflow_task_001 (60a1c83e)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 创建工作流: workflow_task_001 (60a1c83e)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 需求分解为工作流: 60a1c83e
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent执行任务: execute_workflow
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: workflow_task_001
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: workflow_task_001
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_001 (需求: 实现用户登录功能)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_001
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_002 (需求分析)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_002
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_003 (架构设计)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_003
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_004 (编码实现)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_004
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_005 (单元测试)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_005
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 执行任务: task_006 (代码审查)
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 任务完成: task_006
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: workflow_task_001
+2026-06-04 00:26:19 - src.mvp_core.coordination_agent - INFO - 工作流初始化: dict_test (5d9a5594)
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: developer
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: reviewer
+2026-06-04 00:27:43 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: documenter
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: developer
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: reviewer
+2026-06-04 00:28:09 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: documenter
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: developer
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: reviewer
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: documenter
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coord
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (35534554)
+2026-06-04 00:28:23 - src.mvp_core.coordination_agent - INFO - 创建工作流: test_workflow (35534554)
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: developer
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: reviewer
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: documenter
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coord
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (67269b24)
+2026-06-04 00:28:48 - src.mvp_core.coordination_agent - INFO - 创建工作流: test_workflow (67269b24)
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coordinator
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: developer
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: reviewer
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: documenter
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 工作流执行器初始化: max_workers=4
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 协调Agent初始化: coord
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: dev
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 注册Agent到协调器: tester
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 工作流初始化: test_workflow (d4bc04e3)
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 创建工作流: test_workflow (d4bc04e3)
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 协调Agent执行工作流: test_workflow
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 开始执行工作流: test_workflow
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 执行任务: task1 (编码)
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 任务完成: task1
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 执行任务: task2 (测试)
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 任务完成: task2
+2026-06-04 00:29:10 - src.mvp_core.coordination_agent - INFO - 工作流执行完成: test_workflow

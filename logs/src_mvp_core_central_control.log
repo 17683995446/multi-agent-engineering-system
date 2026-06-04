@@ -1,0 +1,363 @@
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca3
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_decompose
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [be3fabb5] 接收到任务需求: 实现用户登录功能...
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - [be3fabb5] 任务分解失败: type object 'ExecutionStatus' has no attribute 'READY'
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_dispatch
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent, 类型: ['development']
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - Agent注册成功: test_agent, 类型: ['testing']
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - Agent注册成功: doc_agent, 类型: ['documentation']
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [fadf41ce] 接收到任务需求: 实现订单管理模块...
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - [fadf41ce] 任务分解失败: type object 'ExecutionStatus' has no attribute 'READY'
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [fadf41ce] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [3e7e1c18] 接收到任务需求: 编写单元测试用例...
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - [3e7e1c18] 任务分解失败: type object 'ExecutionStatus' has no attribute 'READY'
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 测试计划 -> test_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 测试用例设计 -> test_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 测试执行 -> test_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 测试报告 -> test_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [3e7e1c18] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_no_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [b6b97353] 接收到任务需求: 通用任务...
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - [b6b97353] 任务分解失败: type object 'ExecutionStatus' has no attribute 'READY'
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 分析
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 执行
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 验证
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [b6b97353] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - Agent注销成功: doc_agent
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_track
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [9f789e78] 接收到任务需求: 实现支付功能...
+2026-06-04 00:01:32 - src.mvp_core.central_control - ERROR - [9f789e78] 任务分解失败: type object 'ExecutionStatus' has no attribute 'READY'
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_summary
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent2, 类型: ['development']
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [778e821d] 任务分解完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [778e821d] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [778e821d] 执行完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [c7c93b24] 任务分解完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [c7c93b24] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [c7c93b24] 执行完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [7784298f] 任务分解完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [7784298f] 任务分发完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - [7784298f] 执行完成
+2026-06-04 00:01:32 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca3
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_decompose
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [4eb47330] 接收到任务需求: 实现用户登录功能...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [4eb47330] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [91c5f8f8] 接收到任务需求: 编写单元测试...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [91c5f8f8] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [da8715df] 接收到任务需求: 编写API文档...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [da8715df] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [3804fb9a] 接收到任务需求: 重构代码...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [3804fb9a] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [3a645d26] 接收到任务需求: 实现新功能...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [3a645d26] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_dispatch
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent, 类型: ['development']
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: test_agent, 类型: ['testing']
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: doc_agent, 类型: ['documentation']
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [1d4e0c2d] 接收到任务需求: 实现订单管理模块...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [1d4e0c2d] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [1d4e0c2d] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [2a44826a] 接收到任务需求: 编写单元测试用例...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [2a44826a] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 测试计划 -> test_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 测试用例设计 -> test_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 测试执行 -> test_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 测试报告 -> test_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [2a44826a] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_no_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [0023636f] 接收到任务需求: 通用任务...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [0023636f] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 分析
+2026-06-04 00:02:13 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 执行
+2026-06-04 00:02:13 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 验证
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [0023636f] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注销成功: doc_agent
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_track
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [552ff508] 接收到任务需求: 实现支付功能...
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [552ff508] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [552ff508] 任务结果更新: task_002 -> 成功
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [552ff508] 任务结果更新: task_003 -> 成功
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [552ff508] 任务结果更新: task_004 -> 失败
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_summary
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent2, 类型: ['development']
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [cf90c33d] 任务分解完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [cf90c33d] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [cf90c33d] 执行完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [71f0815b] 任务分解完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [71f0815b] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [71f0815b] 执行完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [6aee753e] 任务分解完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [6aee753e] 任务分发完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - [6aee753e] 执行完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:02:13 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: unknown
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: agent1, 类型: ['development', 'testing']
+2026-06-04 00:02:13 - src.mvp_core.central_control - INFO - Agent注册成功: agent2, 类型: ['documentation']
+2026-06-04 00:02:13 - src.mvp_core.central_control - WARNING - Agent已注册: agent1
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca3
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_decompose
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [34799eda] 接收到任务需求: 实现用户登录功能...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [34799eda] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [68d2d7f8] 接收到任务需求: 编写单元测试...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [68d2d7f8] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [211fd389] 接收到任务需求: 编写API文档...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [211fd389] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [e86946b2] 接收到任务需求: 重构代码...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [e86946b2] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [7027dae7] 接收到任务需求: 实现新功能...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [7027dae7] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_dispatch
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent, 类型: ['development']
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: test_agent, 类型: ['testing']
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: doc_agent, 类型: ['documentation']
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [2663cbd5] 接收到任务需求: 实现订单管理模块...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [2663cbd5] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [2663cbd5] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [c83a53ee] 接收到任务需求: 编写单元测试用例...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [c83a53ee] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 测试计划 -> test_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 测试用例设计 -> test_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 测试执行 -> test_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 测试报告 -> test_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [c83a53ee] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_no_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [afc1ad7c] 接收到任务需求: 通用任务...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [afc1ad7c] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 分析
+2026-06-04 00:06:18 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 执行
+2026-06-04 00:06:18 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 验证
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [afc1ad7c] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注销成功: doc_agent
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_track
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [95cc67ea] 接收到任务需求: 实现支付功能...
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [95cc67ea] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [95cc67ea] 任务结果更新: task_002 -> 成功
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [95cc67ea] 任务结果更新: task_003 -> 成功
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [95cc67ea] 任务结果更新: task_004 -> 失败
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_summary
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent2, 类型: ['development']
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [49d1a3a6] 任务分解完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [49d1a3a6] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [49d1a3a6] 执行完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [6e7cd505] 任务分解完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [6e7cd505] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [6e7cd505] 执行完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [57133e3d] 任务分解完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [57133e3d] 任务分发完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - [57133e3d] 执行完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:06:18 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: unknown
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: agent1, 类型: ['development', 'testing']
+2026-06-04 00:06:18 - src.mvp_core.central_control - INFO - Agent注册成功: agent2, 类型: ['documentation']
+2026-06-04 00:06:18 - src.mvp_core.central_control - WARNING - Agent已注册: agent1
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: test_cca3
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_decompose
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [8afd20c0] 接收到任务需求: 实现用户登录功能...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [8afd20c0] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [e5217184] 接收到任务需求: 编写单元测试...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [e5217184] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a788acaf] 接收到任务需求: 编写API文档...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a788acaf] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [86a4a075] 接收到任务需求: 重构代码...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [86a4a075] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a265a950] 接收到任务需求: 实现新功能...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a265a950] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_dispatch
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent, 类型: ['development']
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: test_agent, 类型: ['testing']
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: doc_agent, 类型: ['documentation']
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [fc008fd7] 接收到任务需求: 实现订单管理模块...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [fc008fd7] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [fc008fd7] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a19763b3] 接收到任务需求: 编写单元测试用例...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a19763b3] 任务分解完成，共 4 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 测试计划 -> test_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 测试用例设计 -> test_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 测试执行 -> test_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 测试报告 -> test_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [a19763b3] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_no_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c5dd8d16] 接收到任务需求: 通用任务...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c5dd8d16] 任务分解完成，共 3 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 分析
+2026-06-04 00:17:42 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 执行
+2026-06-04 00:17:42 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 验证
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c5dd8d16] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注销成功: doc_agent
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_track
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [4bd79dda] 接收到任务需求: 实现支付功能...
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [4bd79dda] 任务分解完成，共 5 个叶子任务
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [4bd79dda] 任务结果更新: task_002 -> 成功
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [4bd79dda] 任务结果更新: task_003 -> 成功
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [4bd79dda] 任务结果更新: task_004 -> 失败
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: cca_summary
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: dev_agent2, 类型: ['development']
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [6bf0d9a7] 任务分解完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 需求分析 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 架构设计 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 编码实现 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 单元测试 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 代码审查 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [6bf0d9a7] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [6bf0d9a7] 执行完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [36e07d9a] 任务分解完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [36e07d9a] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [36e07d9a] 执行完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c48a39d3] 任务分解完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 分析 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 执行 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发: 验证 -> dev_agent2
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c48a39d3] 任务分发完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - [c48a39d3] 执行完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:17:42 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: unknown
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: agent1, 类型: ['development', 'testing']
+2026-06-04 00:17:42 - src.mvp_core.central_control - INFO - Agent注册成功: agent2, 类型: ['documentation']
+2026-06-04 00:17:42 - src.mvp_core.central_control - WARNING - Agent已注册: agent1
+2026-06-04 00:27:43 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:27:43 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: central
+2026-06-04 00:27:43 - src.mvp_core.central_control - INFO - [bfc834fe] 任务分解完成
+2026-06-04 00:27:43 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 需求分析
+2026-06-04 00:27:43 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 架构设计
+2026-06-04 00:27:43 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 编码实现
+2026-06-04 00:27:43 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 单元测试
+2026-06-04 00:27:43 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 代码审查
+2026-06-04 00:27:43 - src.mvp_core.central_control - INFO - [bfc834fe] 任务分发完成
+2026-06-04 00:27:43 - src.mvp_core.central_control - INFO - [bfc834fe] 执行完成
+2026-06-04 00:28:09 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:28:09 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: central
+2026-06-04 00:28:09 - src.mvp_core.central_control - INFO - [e99d6a74] 任务分解完成
+2026-06-04 00:28:09 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 需求分析
+2026-06-04 00:28:09 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 架构设计
+2026-06-04 00:28:09 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 编码实现
+2026-06-04 00:28:09 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 单元测试
+2026-06-04 00:28:09 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 代码审查
+2026-06-04 00:28:09 - src.mvp_core.central_control - INFO - [e99d6a74] 任务分发完成
+2026-06-04 00:28:09 - src.mvp_core.central_control - INFO - [e99d6a74] 执行完成
+2026-06-04 00:28:23 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:28:23 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: central
+2026-06-04 00:28:23 - src.mvp_core.central_control - INFO - [9dd817db] 任务分解完成
+2026-06-04 00:28:23 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 需求分析
+2026-06-04 00:28:23 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 架构设计
+2026-06-04 00:28:23 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 编码实现
+2026-06-04 00:28:23 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 单元测试
+2026-06-04 00:28:23 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 代码审查
+2026-06-04 00:28:23 - src.mvp_core.central_control - INFO - [9dd817db] 任务分发完成
+2026-06-04 00:28:23 - src.mvp_core.central_control - INFO - [9dd817db] 执行完成
+2026-06-04 00:28:48 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:28:48 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: central
+2026-06-04 00:28:48 - src.mvp_core.central_control - INFO - [2d9d2c5b] 任务分解完成
+2026-06-04 00:28:48 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 需求分析
+2026-06-04 00:28:48 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 架构设计
+2026-06-04 00:28:48 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 编码实现
+2026-06-04 00:28:48 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 单元测试
+2026-06-04 00:28:48 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 代码审查
+2026-06-04 00:28:48 - src.mvp_core.central_control - INFO - [2d9d2c5b] 任务分发完成
+2026-06-04 00:28:48 - src.mvp_core.central_control - INFO - [2d9d2c5b] 执行完成
+2026-06-04 00:29:10 - src.mvp_core.central_control - INFO - 任务分发器初始化完成
+2026-06-04 00:29:10 - src.mvp_core.central_control - INFO - 中央控制Agent初始化: central
+2026-06-04 00:29:10 - src.mvp_core.central_control - INFO - [c0eb1bec] 任务分解完成
+2026-06-04 00:29:10 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 需求分析
+2026-06-04 00:29:10 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 架构设计
+2026-06-04 00:29:10 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 编码实现
+2026-06-04 00:29:10 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 单元测试
+2026-06-04 00:29:10 - src.mvp_core.central_control - ERROR - 没有可用Agent处理任务: 代码审查
+2026-06-04 00:29:10 - src.mvp_core.central_control - INFO - [c0eb1bec] 任务分发完成
+2026-06-04 00:29:10 - src.mvp_core.central_control - INFO - [c0eb1bec] 执行完成
