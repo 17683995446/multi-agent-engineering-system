@@ -4,10 +4,10 @@ Agent基类测试
 """
 
 import unittest
-import time
 from src.core.agent_base import (
     AgentBase, MessageBus, Message, MessageType, AgentStatus
 )
+from src.core.interfaces import AgentInterface
 
 
 class MockAgent(AgentBase):
@@ -59,78 +59,69 @@ class TestMessageBus(unittest.TestCase):
 
     def test_register_normal(self) -> None:
         """正常注册测试"""
-        result = self.bus.register(self.agent1)
+        result = self.bus.register_agent(self.agent1)
         self.assertTrue(result)
         agents = self.bus.get_registered_agents()
         self.assertIn("agent1", agents)
 
     def test_register_duplicate(self) -> None:
         """重复注册测试"""
-        self.bus.register(self.agent1)
-        result = self.bus.register(self.agent1)
+        self.bus.register_agent(self.agent1)
+        result = self.bus.register_agent(self.agent1)
         self.assertFalse(result)
 
     def test_send_normal(self) -> None:
         """正常发送消息测试"""
-        self.bus.register(self.agent1)
-        self.bus.register(self.agent2)
-        msg = Message.create(
-            msg_type=MessageType.REQUEST,
+        self.bus.register_agent(self.agent1)
+        self.bus.register_agent(self.agent2)
+        result = self.bus.send(
             sender="agent1",
             receiver="agent2",
             content={"action": "test"}
         )
-        result = self.bus.send(msg)
         self.assertTrue(result)
 
     def test_send_to_nonexistent(self) -> None:
         """发送到不存在Agent测试"""
-        msg = Message.create(
-            msg_type=MessageType.REQUEST,
+        result = self.bus.send(
             sender="agent1",
             receiver="nonexistent",
             content={"action": "test"}
         )
-        result = self.bus.send(msg)
         self.assertFalse(result)
 
     def test_receive_normal(self) -> None:
         """正常接收消息测试"""
-        self.bus.register(self.agent1)
-        self.bus.register(self.agent2)
-        msg = Message.create(
-            msg_type=MessageType.REQUEST,
+        self.bus.register_agent(self.agent1)
+        self.bus.register_agent(self.agent2)
+        self.bus.send(
             sender="agent1",
             receiver="agent2",
             content={"data": "hello"}
         )
-        self.bus.send(msg)
         received = self.bus.receive("agent2", timeout=1.0)
         self.assertIsNotNone(received)
         self.assertEqual(received.content["data"], "hello")
 
     def test_receive_empty(self) -> None:
         """空队列接收测试"""
-        self.bus.register(self.agent1)
+        self.bus.register_agent(self.agent1)
         received = self.bus.receive("agent1", timeout=0.1)
         self.assertIsNone(received)
 
     def test_broadcast(self) -> None:
         """广播消息测试"""
-        self.bus.register(self.agent1)
-        self.bus.register(self.agent2)
-        msg = Message.create(
-            msg_type=MessageType.EVENT,
+        self.bus.register_agent(self.agent1)
+        self.bus.register_agent(self.agent2)
+        count = self.bus.broadcast(
             sender="agent1",
-            receiver=None,
             content={"event": "broadcast"}
         )
-        result = self.bus.broadcast(msg)
-        self.assertTrue(result)
+        self.assertEqual(count, 1)
 
     def test_unregister_normal(self) -> None:
         """正常注销测试"""
-        self.bus.register(self.agent1)
+        self.bus.register_agent(self.agent1)
         result = self.bus.unregister("agent1")
         self.assertTrue(result)
 
@@ -199,6 +190,10 @@ class TestAgentBase(unittest.TestCase):
         )
         handlers = self.agent._handlers[MessageType.REQUEST]
         self.assertEqual(len(handlers), 1)
+
+    def test_is_interface(self) -> None:
+        """接口实现测试"""
+        self.assertIsInstance(self.agent, AgentInterface)
 
 
 class TestMessage(unittest.TestCase):

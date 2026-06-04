@@ -1,9 +1,8 @@
 """
-Agent基类模块
-遵循项目规范：函数≤7行、类型注解、标准docstring
+Agent基类与消息总线实现
+遵循项目规范，实现interfaces定义接口
 """
 
-from abc import ABC, abstractmethod
 from typing import Dict, Any, Optional, List, Callable
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -11,6 +10,11 @@ from enum import Enum
 from queue import Queue
 import threading
 import uuid
+
+from src.core.interfaces import (
+    AgentInterface,
+    MessageBusInterface
+)
 
 
 class MessageType(Enum):
@@ -45,9 +49,6 @@ class Message:
 
     Returns:
         Message实例
-
-    Raises:
-        ValueError: 参数无效时
     """
     msg_id: str
     msg_type: MessageType
@@ -88,10 +89,10 @@ class Message:
         )
 
 
-class MessageBus:
-    """消息总线 - Agent间消息路由
+class MessageBus(MessageBusInterface):
+    """消息总线实现
 
-    负责Agent注册、消息发送与接收
+    负责Agent间消息路由
     """
 
     def __init__(self, name: str) -> None:
@@ -100,16 +101,40 @@ class MessageBus:
         Args:
             name: 总线名称
         """
-        self.name = name
-        self._agents: Dict[str, 'AgentBase'] = {}
+        self._name = name
+        self._agents: Dict[str, AgentInterface] = {}
         self._queues: Dict[str, Queue] = {}
         self._lock = threading.RLock()
 
-    def register(self, agent: 'AgentBase') -> bool:
-        """注册Agent到总线
+    @property
+    def name(self) -> str:
+        """总线名称
+
+        Returns:
+            名称字符串
+        """
+        return self._name
+
+    def register(self, agent_name: str) -> bool:
+        """注册Agent
 
         Args:
-            agent: 要注册的Agent
+            agent_name: Agent名称
+
+        Returns:
+            注册是否成功
+        """
+        with self._lock:
+            if agent_name in self._agents:
+                return False
+            self._queues[agent_name] = Queue()
+            return True
+
+    def register_agent(self, agent: AgentInterface) -> bool:
+        """注册Agent实例
+
+        Args:
+            agent: Agent实例
 
         Returns:
             注册是否成功
@@ -122,7 +147,7 @@ class MessageBus:
             return True
 
     def unregister(self, agent_name: str) -> bool:
-        """从总线注销Agent
+        """注销Agent
 
         Args:
             agent_name: Agent名称
@@ -137,46 +162,58 @@ class MessageBus:
             del self._queues[agent_name]
             return True
 
-    def send(self, message: Message) -> bool:
-        """发送消息到指定Agent
+    def send(
+        self,
+        sender: str,
+        receiver: str,
+        content: Dict[str, Any]
+    ) -> bool:
+        """发送消息
 
         Args:
-            message: 要发送的消息
+            sender: 发送者
+            receiver: 接收者
+            content: 内容
 
         Returns:
             发送是否成功
         """
         with self._lock:
-            if message.receiver is None:
-                return self.broadcast(message)
-            if message.receiver not in self._agents:
+            if receiver not in self._agents:
                 return False
-            self._queues[message.receiver].put(message)
+            message = Message.create(
+                msg_type=MessageType.REQUEST,
+                sender=sender,
+                receiver=receiver,
+                content=content
+            )
+            self._queues[receiver].put(message)
             return True
 
-    def broadcast(self, message: Message) -> bool:
-        """广播消息给所有Agent
+    def broadcast(self, sender: str, content: Dict[str, Any]) -> int:
+        """广播消息
 
         Args:
-            message: 要广播的消息
+            sender: 发送者
+            content: 内容
 
         Returns:
-            是否有Agent收到
+            接收者数量
         """
-        count = 0
-        for agent_name in self._agents:
-            if agent_name == message.sender:
-                continue
-            msg_copy = Message.create(
-                msg_type=message.msg_type,
-                sender=message.sender,
-                receiver=agent_name,
-                content=message.content.copy(),
-                correlation_id=message.correlation_id
-            )
-            self._queues[agent_name].put(msg_copy)
-            count += 1
-        return count > 0
+        with self._lock:
+            count = 0
+            for agent_name in self._agents:
+                if agent_name == sender:
+                    continue
+                message = Message.create(
+                    msg_type=MessageType.EVENT,
+                    sender=sender,
+                    receiver=agent_name,
+                    content=content.copy()
+                )
+                self._queues[agent_name].put(message)
+                count += 1
+            return count
 
     def receive(
         self,
@@ -202,7 +239,7 @@ class MessageBus:
             return None
 
     def get_registered_agents(self) -> List[str]:
-        """获取已注册的Agent列表
+        """获取已注册Agent列表
 
         Returns:
             Agent名称列表
@@ -211,10 +248,10 @@ class MessageBus:
             return list(self._agents.keys())
 
 
-class AgentBase(ABC):
-    """Agent抽象基类
+class AgentBase(AgentInterface):
+    """Agent抽象基类实现
 
-    所有Agent必须继承此类并实现execute方法
+    所有Agent必须继承此类
     """
 
     def __init__(
@@ -228,14 +265,32 @@ class AgentBase(ABC):
             name: Agent名称
             message_bus: 消息总线实例
         """
-        self.name = name
-        self.status = AgentStatus.IDLE
-        self.message_bus = message_bus
+        self._name = name
+        self._status = AgentStatus.IDLE
+        self._message_bus = message_bus
         self._handlers: Dict[MessageType, List[Callable]] = {
             msg_type: [] for msg_type in MessageType
         }
         self._running = False
         self._thread: Optional[threading.Thread] = None
+
+    @property
+    def name(self) -> str:
+        """Agent名称
+
+        Returns:
+            名称字符串
+        """
+        return self._name
+
+    @property
+    def status(self) -> AgentStatus:
+        """Agent状态
+
+        Returns:
+            当前状态
+        """
+        return self._status
 
     def initialize(self) -> bool:
         """初始化Agent
@@ -244,9 +299,9 @@ class AgentBase(ABC):
             初始化是否成功
         """
         self._running = True
-        self.status = AgentStatus.IDLE
-        if self.message_bus:
-            self.message_bus.register(self)
+        self._status = AgentStatus.IDLE
+        if self._message_bus:
+            self._message_bus.register_agent(self)
             self._start_message_loop()
         return True
 
@@ -265,9 +320,9 @@ class AgentBase(ABC):
             关闭是否成功
         """
         self._running = False
-        self.status = AgentStatus.STOPPED
-        if self.message_bus:
-            self.message_bus.unregister(self.name)
+        self._status = AgentStatus.STOPPED
+        if self._message_bus:
+            self._message_bus.unregister(self._name)
         return True
 
     def register_handler(
@@ -301,24 +356,28 @@ class AgentBase(ABC):
         Returns:
             发送是否成功
         """
-        if not self.message_bus:
+        if not self._message_bus:
             return False
         message = Message.create(
             msg_type=msg_type,
-            sender=self.name,
+            sender=self._name,
             receiver=receiver,
             content=content,
             correlation_id=correlation_id
         )
-        return self.message_bus.send(message)
+        return self._message_bus.send(
+            sender=self._name,
+            receiver=receiver or "",
+            content=content
+        )
 
     def _message_loop(self) -> None:
         """消息循环"""
         while self._running:
-            if not self.message_bus:
+            if not self._message_bus:
                 break
-            message = self.message_bus.receive(
-                self.name,
+            message = self._message_bus.receive(
+                self._name,
                 timeout=0.1
             )
             if message:
@@ -337,18 +396,6 @@ class AgentBase(ABC):
             except Exception:
                 pass
 
-    @abstractmethod
-    def execute(self, task: Dict[str, Any]) -> Dict[str, Any]:
-        """执行任务
-
-        Args:
-            task: 任务字典
-
-        Returns:
-            执行结果字典
-        """
-        pass
-
     def get_status(self) -> Dict[str, Any]:
         """获取Agent状态
 
@@ -356,7 +403,7 @@ class AgentBase(ABC):
             状态字典
         """
         return {
-            "name": self.name,
-            "status": self.status.value,
+            "name": self._name,
+            "status": self._status.value,
             "running": self._running
         }
