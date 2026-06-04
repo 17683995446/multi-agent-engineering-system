@@ -1,9 +1,0 @@
-2026-05-31 18:45:03 - common.data_validator - INFO - 注册自定义规则: positive
-2026-05-31 18:45:03 - common.data_validator - INFO - 注册自定义规则: non_empty_list
-2026-05-31 18:45:03 - common.data_validator - INFO - 注册Schema: product
-2026-05-31 18:45:28 - common.data_validator - INFO - 注册自定义规则: positive
-2026-05-31 18:45:28 - common.data_validator - INFO - 注册自定义规则: non_empty_list
-2026-05-31 18:45:28 - common.data_validator - INFO - 注册Schema: product
-2026-05-31 18:45:50 - common.data_validator - INFO - 注册自定义规则: positive
-2026-05-31 18:45:50 - common.data_validator - INFO - 注册自定义规则: non_empty_list
-2026-05-31 18:45:50 - common.data_validator - INFO - 注册Schema: product

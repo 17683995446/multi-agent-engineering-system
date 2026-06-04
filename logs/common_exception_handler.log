@@ -1,6 +1,0 @@
-2026-05-31 16:28:12 - common.exception_handler - INFO - 异常处理增强器初始化完成
-2026-05-31 16:28:12 - common.exception_handler - WARNING - 异常记录: ValueError - test error (分类: validation)
-2026-05-31 16:28:12 - common.exception_handler - WARNING - 异常记录: RuntimeError - always fail (分类: unknown)
-2026-05-31 16:28:12 - common.exception_handler - WARNING - 异常记录: RuntimeError - fail (分类: unknown)
-2026-05-31 16:28:12 - common.exception_handler - WARNING - 异常记录: RuntimeError - fail (分类: unknown)
-2026-05-31 16:28:12 - common.exception_handler - INFO - 全局异常处理器已安装

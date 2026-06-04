@@ -1,0 +1,16 @@
+# 生产环境配置
+app:
+  name: multi_agent_system
+  version: "1.0.0"
+  env: prod
+
+logging:
+  level: WARNING
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+agent:
+  max_workers: 8
+  timeout: 60
+
+message_bus:
+  max_queue_size: 10000

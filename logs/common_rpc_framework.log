@@ -1,6 +1,0 @@
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: echo
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: add
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: fail
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: slow_add
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: math.add
-2026-05-31 18:42:49 - common.rpc_framework - INFO - RPC方法注册: calc.add

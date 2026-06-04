@@ -1,0 +1,16 @@
+# 开发环境配置
+app:
+  name: multi_agent_system
+  version: "1.0.0"
+  env: dev
+
+logging:
+  level: DEBUG
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+agent:
+  max_workers: 4
+  timeout: 30
+
+message_bus:
+  max_queue_size: 1000

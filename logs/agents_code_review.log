@@ -1,8 +1,0 @@
-2026-05-28 11:10:24 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已启动
-2026-05-28 11:10:24 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已停止
-2026-05-28 11:15:58 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已启动
-2026-05-28 11:15:58 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已停止
-2026-05-28 11:15:58 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已启动
-2026-05-28 11:15:58 - agents.code_review - INFO - 开始评审文件：/tmp/tmpvieso4th/test_review.py
-2026-05-28 11:15:58 - agents.code_review - INFO - 评审完成：review_1，得分：84.0
-2026-05-28 11:15:58 - agents.code_review - INFO - 代码评审Agent CodeReviewAgent 已启动
